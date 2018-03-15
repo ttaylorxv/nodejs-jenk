@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "a simple demo program",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "ttaylorxv",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^1.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttaylorxv/nodejs-jenk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ttaylorxv/nodejs-jenk/issues"
+  },
+  "homepage": "https://github.com/ttaylorxv/nodejs-jenk#readme"
+}
